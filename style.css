@@ -1,0 +1,91 @@
+.weekdays {
+    margin: 0;
+    padding: 100px;
+    background-color: #c11b1b;
+    gap: 20px;
+    text-align: center;
+  }
+  .day1{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  .day2{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  .day3{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  .day4{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  .day5{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  .day6{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    gap: 20px;
+    text-align: center;
+  }
+  table{
+    margin: 0 auto;
+    height: 300px;
+    width: 600px;
+    
+  }
+  .month{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+    height: 30%;
+    width: 40%;
+    margin-left: 30%;
+    animation-name: debb;
+    animation-duration: 20s;
+
+    
+  }
+  @keyframes debb {
+    0%   {background-color: rgb(212, 7, 41);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: orangered;}
+  }
+
+  #txt{
+    background-color: orangered;
+  }
+  .day{
+    
+   
+    background-color: red;
+    position: relative;
+    animation-name: work;
+    animation-duration: 20s;
+  }
+  @keyframes work {
+    0%   {background-color: rgb(212, 7, 41);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: orangered;}
+  }
